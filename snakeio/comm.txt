@@ -1,0 +1,16 @@
+var newSpan = document.createElement('span');
+newSpan.innerHTML = "hello";
+
+document.querySelector("#login > div.snakediv")
+
+if (lastscore > highscore) {
+    highscore = valueOf(lastscore);
+};
+
+
+function getsnakelength() {
+	lastlength = Number(document.querySelector("#lastscore > b").innerHTML);	
+	if (lastlength > highscore) {
+    	highscore = lastlength};
+	console.log(highscore)
+}
